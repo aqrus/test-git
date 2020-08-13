@@ -1,0 +1,12 @@
+{
+    "default": {
+
+        "host": "171.244.141.103",
+        "username": "web5",  // or null for anonymous login
+        "password": "Ldsfj#167SKfa",
+        "path": "/domains/demo5103.seomarketing.edu.vn/public_html/bitrix",
+
+        "upload_on_save": true, // set *false* if you do not want to upload on save!
+        "overwrite_newer_prevention": false,
+    }
+}

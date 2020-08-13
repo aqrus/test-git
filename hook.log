@@ -1,0 +1,719 @@
+
+------------------------
+2020.02.06 16:46:54
+incoming
+Array
+(
+    [event] => ONCRMCONTACTDELETE
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 132
+                )
+
+        )
+
+    [ts] => 1580982410
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => zj9is2sf9qhni0t69pr84svnosi9n91d
+        )
+
+)
+------------------------
+
+------------------------
+2020.02.07 11:54:46
+incoming
+Array
+(
+    [event] => ONCRMCONTACTUPDATE
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 142
+                )
+
+        )
+
+    [ts] => 1581051284
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => 09nqgkjvamclvquyaezlsw4dp6byviyv
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:25:01
+incoming
+Array
+(
+    [event] => ONCRMCONTACTUPDATE
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 142
+                )
+
+        )
+
+    [ts] => 1581297897
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => 09nqgkjvamclvquyaezlsw4dp6byviyv
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:26:44
+incoming
+A
+------------------------
+
+------------------------
+2020.02.10 8:28:27
+incoming
+B
+------------------------
+
+------------------------
+2020.02.10 8:29:33
+incoming
+142
+------------------------
+
+------------------------
+2020.02.10 8:33:07
+incoming
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 142
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => Trương
+            [SECOND_NAME] => 
+            [LAST_NAME] => Bảo
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => Y
+            [HAS_EMAIL] => Y
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-07T04:56:39+03:00
+            [DATE_MODIFY] => 2020-02-10T04:29:27+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+            [PHONE] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 254
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => 123456789
+                            [TYPE_ID] => PHONE
+                        )
+
+                )
+
+            [EMAIL] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 256
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => truonggiabao12345@gmail.com
+                            [TYPE_ID] => EMAIL
+                        )
+
+                )
+
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581298386.8874
+            [finish] => 1581298386.9149
+            [duration] => 0.02745509147644
+            [processing] => 0.0073099136352539
+            [date_start] => 2020-02-10T04:33:06+03:00
+            [date_finish] => 2020-02-10T04:33:06+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:34:29
+incoming
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 142
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => Trương
+            [SECOND_NAME] => 
+            [LAST_NAME] => Bảo
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => Y
+            [HAS_EMAIL] => Y
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-07T04:56:39+03:00
+            [DATE_MODIFY] => 2020-02-10T04:34:24+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+            [PHONE] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 254
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => 123456789
+                            [TYPE_ID] => PHONE
+                        )
+
+                )
+
+            [EMAIL] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 256
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => truonggiabao12345@gmail.com
+                            [TYPE_ID] => EMAIL
+                        )
+
+                )
+
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581298469.2915
+            [finish] => 1581298469.323
+            [duration] => 0.031419038772583
+            [processing] => 0.0071299076080322
+            [date_start] => 2020-02-10T04:34:29+03:00
+            [date_finish] => 2020-02-10T04:34:29+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:36:18
+incoming
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 142
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => Trương
+            [SECOND_NAME] => 
+            [LAST_NAME] => Bảo
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => Y
+            [HAS_EMAIL] => Y
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-07T04:56:39+03:00
+            [DATE_MODIFY] => 2020-02-10T04:36:13+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+            [PHONE] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 254
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => 123456789
+                            [TYPE_ID] => PHONE
+                        )
+
+                )
+
+            [EMAIL] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 256
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => truonggiabao12345@gmail.com
+                            [TYPE_ID] => EMAIL
+                        )
+
+                )
+
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581298578.5343
+            [finish] => 1581298578.5669
+            [duration] => 0.032656908035278
+            [processing] => 0.0083391666412354
+            [date_start] => 2020-02-10T04:36:18+03:00
+            [date_finish] => 2020-02-10T04:36:18+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:43:10
+incoming
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 142
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => Trương
+            [SECOND_NAME] => 
+            [LAST_NAME] => Bảo
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => Y
+            [HAS_EMAIL] => Y
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-07T04:56:39+03:00
+            [DATE_MODIFY] => 2020-02-10T04:43:03+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+            [PHONE] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 254
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => 123456789
+                            [TYPE_ID] => PHONE
+                        )
+
+                )
+
+            [EMAIL] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 256
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => truonggiabao12345@gmail.com
+                            [TYPE_ID] => EMAIL
+                        )
+
+                )
+
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581298989.9251
+            [finish] => 1581298989.9669
+            [duration] => 0.041817903518677
+            [processing] => 0.020461082458496
+            [date_start] => 2020-02-10T04:43:09+03:00
+            [date_finish] => 2020-02-10T04:43:09+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 8:55:20
+incoming
+Array
+(
+    [event] => ONCRMCONTACTADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 144
+                )
+
+        )
+
+    [ts] => 1581299716
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => b8i7592va1x6y3byqgax6qutfdrvkd9m
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 9:09:00
+incoming
+Array
+(
+    [event] => ONCRMCONTACTADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 146
+                )
+
+        )
+
+    [ts] => 1581300536
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => b8i7592va1x6y3byqgax6qutfdrvkd9m
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 9:10:07
+incoming
+Array
+(
+    [event] => ONCRMCONTACTADD
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 148
+                )
+
+        )
+
+    [ts] => 1581300603
+    [auth] => Array
+        (
+            [domain] => b24-srgzjh.bitrix24.com
+            [client_endpoint] => https://b24-srgzjh.bitrix24.com/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 28edc23368d7cc8776a97b91e8e67358
+            [application_token] => b8i7592va1x6y3byqgax6qutfdrvkd9m
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 9:16:11
+incoming
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 150
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => test
+            [SECOND_NAME] => 
+            [LAST_NAME] => testy
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => N
+            [HAS_EMAIL] => N
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-10T05:16:05+03:00
+            [DATE_MODIFY] => 2020-02-10T05:16:05+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581300970.9796
+            [finish] => 1581300971.0293
+            [duration] => 0.049649000167847
+            [processing] => 0.0067739486694336
+            [date_start] => 2020-02-10T05:16:10+03:00
+            [date_finish] => 2020-02-10T05:16:11+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 9:54:45
+DEBUG
+
+------------------------
+
+------------------------
+2020.02.10 9:54:45
+DEBUG
+
+------------------------
+
+------------------------
+2020.02.10 9:55:36
+DEBUG
+stdClass Object
+(
+    [result] => stdClass Object
+        (
+            [ID] => 152
+            [POST] => 
+            [COMMENTS] => 
+            [HONORIFIC] => 0
+            [NAME] => uo
+            [SECOND_NAME] => 
+            [LAST_NAME] => up
+            [PHOTO] => 
+            [LEAD_ID] => 
+            [TYPE_ID] => CLIENT
+            [SOURCE_ID] => CALL
+            [SOURCE_DESCRIPTION] => 
+            [COMPANY_ID] => 
+            [BIRTHDATE] => 
+            [EXPORT] => Y
+            [HAS_PHONE] => Y
+            [HAS_EMAIL] => Y
+            [HAS_IMOL] => N
+            [DATE_CREATE] => 2020-02-10T05:18:58+03:00
+            [DATE_MODIFY] => 2020-02-10T05:55:31+03:00
+            [ASSIGNED_BY_ID] => 1
+            [CREATED_BY_ID] => 1
+            [MODIFY_BY_ID] => 1
+            [OPENED] => Y
+            [ORIGINATOR_ID] => 
+            [ORIGIN_ID] => 
+            [ORIGIN_VERSION] => 
+            [FACE_ID] => 
+            [ADDRESS] => 
+            [ADDRESS_2] => 
+            [ADDRESS_CITY] => 
+            [ADDRESS_POSTAL_CODE] => 
+            [ADDRESS_REGION] => 
+            [ADDRESS_PROVINCE] => 
+            [ADDRESS_COUNTRY] => 
+            [ADDRESS_COUNTRY_CODE] => 
+            [UTM_SOURCE] => 
+            [UTM_MEDIUM] => 
+            [UTM_CAMPAIGN] => 
+            [UTM_CONTENT] => 
+            [UTM_TERM] => 
+            [PHONE] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 270
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => 12321321
+                            [TYPE_ID] => PHONE
+                        )
+
+                )
+
+            [EMAIL] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [ID] => 272
+                            [VALUE_TYPE] => WORK
+                            [VALUE] => truonggiabao12345@gmail.com
+                            [TYPE_ID] => EMAIL
+                        )
+
+                )
+
+        )
+
+    [time] => stdClass Object
+        (
+            [start] => 1581303336.2154
+            [finish] => 1581303336.2455
+            [duration] => 0.030069828033447
+            [processing] => 0.0078630447387695
+            [date_start] => 2020-02-10T05:55:36+03:00
+            [date_finish] => 2020-02-10T05:55:36+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2020.02.10 14:11:29
+incoming
+Array
+(
+    [ID] => 152
+    [event] => deleteData
+    [delete] => 
+)
+
+------------------------

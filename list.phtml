@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<?php
+    $queryUrl = 'https://b24-srgzjh.bitrix24.com/rest/1/qlds7f7m0gwycig3/crm.contact.list.json';
+    $queryData = http_build_query(array(
+        'select'=> [ "ID", "NAME","LAST_NAME","PHONE","EMAIL"]
+    ));
+
+    // $queryUrl = 'https://b24-srgzjh.bitrix24.com/rest/1/qlds7f7m0gwycig3/crm.contact.get.json';
+    // $queryData = http_build_query(array(
+    //     'id'=> 142
+    // ));
+    $curl = curl_init(); //hỗ trợ việc gửi đi một request
+        curl_setopt_array($curl, array(
+            CURLOPT_SSL_VERIFYPEER => 0, // ????
+            CURLOPT_POST => 1, // Post
+            CURLOPT_HEADER => 0, // bao gồm tiêu đề
+            CURLOPT_RETURNTRANSFER => 1, // trả về dạng chuỗi
+            CURLOPT_URL => $queryUrl, // URI
+            CURLOPT_POSTFIELDS => $queryData,
+        ));
+
+    $result = json_decode(curl_exec($curl));
+    curl_close($curl);
+    // echo '<pre>', print_r($result) ,'</pre>';
+?>
+<body>
+    <table>
+        <caption>DATA</caption>
+        <tbody>
+            <tr>
+                <td>id</td>
+                <td>Tên</td>
+                <td>Số điện thoại</td>
+                <td>EMAIL</td>
+                <td>Change</td>
+            </tr>
+                <?php
+                foreach($result->result as $value){ ?>
+                    <tr>
+                        <td><?php echo $value->ID; ?></td>
+                        <td><?php echo $value->NAME.' '.$value->LAST_NAME; ?></td>
+                        <td><?php foreach ($value->PHONE as $vl) {
+                            echo $vl->VALUE.'<br>';
+                        }?></td>
+                        <td><?php foreach ($value->EMAIL as $vl) {
+                            echo $vl->VALUE.'<br>';
+                        }?></td>
+                        <td>
+                            <form action="form.php" method="POST">
+                                <input type="hidden" name="ID" value="<?php echo $value->ID; ?>">
+                                <input type="hidden" name="NAME" value="<?php echo $value->NAME ?>">
+                                <input type="hidden" name="LAST_NAME" value="<?php echo $value->LAST_NAME; ?>">
+                                <input type="hidden" name="PHONE" value="<?php echo $value->PHONE[0]->VALUE; ?>">
+                                <input type="hidden" name="EMAIL" value="<?php echo $value->EMAIL[0]->VALUE; ?>">
+                                <button type="submit">update</button>
+                            </form>
+                            <form action="bitrix.php" method="POST">
+                                <input type="hidden" name="ID" value="<?php echo $value->ID; ?>">
+                                <input type="hidden" name="event" value="deleteData">
+                                <button type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                <?php } ?>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table>
+        <caption>DATA</caption>
+        <tbody>
+            <tr>
+                <td>ID</td>
+                <td>NAME</td>
+                <td>LAST_NAME</td>
+                <td>PHONE</td>
+                <td>EMAIL</td>
+
+            </tr>
+            <tr>
+                <td><?php echo  $_POST['ID']; ?></td>
+                <td><?php echo  $_POST['NAME']; ?></td>
+                <td><?php echo  $_POST['LAST_NAME']; ?></td>
+                <td><?php echo  $_POST['PHONE']; ?></td>
+                <td><?php echo  $_POST['EMAIL']; ?></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <form action="update.php" method="post" accept-charset="utf-8">
+             <input type="hidden" name="ID" value="<?php echo  $_POST['ID']; ?>">
+             <input type="text" name="NAME" value="<?php echo  $_POST['NAME']; ?>" placeholder="NAME">
+             <input type="text" name="LAST_NAME" value="<?php echo  $_POST['LAST_NAME']; ?>" placeholder="LAST_NAME">
+             <input type="text" name="PHONE" value="<?php echo  $_POST['PHONE']; ?>" placeholder="PHONE">
+             <input type="text" name="EMAIL" value="<?php echo  $_POST['EMAIL']; ?>" placeholder="EMAIL">
+             <input type="text" name="Order" value="" placeholder="Đơn Hàng">
+             <button>Update</button>
+        </form>
+
+    </div>
+</body>
+</html>

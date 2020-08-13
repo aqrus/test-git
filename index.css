@@ -1,0 +1,19 @@
+table{
+    border:1px solid black;
+    margin: auto;
+    width: 90%
+}
+th{
+    background-color: green;
+    color: #fff;
+}
+td{
+    border:1px solid black;
+}
+div {
+    margin-left: 5%;
+    margin-top: 50px;
+}
+form {
+    display: inline-block;
+}
